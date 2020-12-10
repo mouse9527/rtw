@@ -3,9 +3,11 @@ plugins {
 }
 
 sourceCompatibility = 14
+targetCompatibility = 14
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
